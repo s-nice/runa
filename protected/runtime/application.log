@@ -1,0 +1,378 @@
+2016/06/22 18:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517788441.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517788441.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517766513.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517766513.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517818628.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517818628.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517803342.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517803342.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660954200.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660954200.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517637183.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517637183.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660997758.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660997758.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660913164.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660913164.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457662883124.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457662883124.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457662525488.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457662525488.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660913164.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660913164.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517766513.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517766513.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517637183.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517637183.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517803342.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517803342.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517788441.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517788441.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517818628.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517818628.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457662525488.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457662525488.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660997758.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660997758.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660954200.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660954200.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457662883124.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457662883124.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517803342.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517803342.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517818628.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517818628.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660913164.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660913164.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517766513.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517766513.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517637183.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517637183.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457662525488.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457662525488.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660954200.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660954200.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457662883124.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457662883124.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660997758.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660997758.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517788441.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517788441.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/attached/image/20160308/20160308155637_91936.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/attached...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/attached/image/20160308/20160308155637_91936.jpg
+HTTP_REFERER=http://runa.localhost/news-2.html
+---
+2016/06/22 18:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/attached/image/20160308/20160308155637_91936.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/attached...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/attached/image/20160308/20160308155637_91936.jpg
+HTTP_REFERER=http://runa.localhost/news-2.html
+---
+2016/06/22 18:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517803342.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517803342.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517788441.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517788441.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517637183.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517637183.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517818628.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517818628.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660913164.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660913164.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457662883124.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457662883124.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457517766513.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457517766513.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660954200.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660954200.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457660997758.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457660997758.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
+2016/06/22 18:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload/img/1457662525488.jpg"。' in D:\www\runa\trunk\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\www\runa\trunk\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/img/1457...')
+#1 D:\www\runa\trunk\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\www\runa\trunk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/img/1457662525488.jpg
+HTTP_REFERER=http://runa.localhost/admin/ad/admin
+---
