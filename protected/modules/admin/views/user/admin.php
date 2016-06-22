@@ -60,8 +60,9 @@ $('.search-form form').submit(function(){
 		 * 
 		 */
 		'phone',
-		/*
 		'email',
+		/*
+		
 		'qq',
 		'status',
 		'login_num',

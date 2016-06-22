@@ -73,17 +73,6 @@ $this->breadcrumbs=array(
 		<?php echo $form->error($model,'qq'); ?>
 	</div>
 	
-	<div class="row">
-		<?php echo $form->labelEx($model,'avatar'); ?>：
-		<?php echo $form->fileField($model,'avatar');
-		if($model->id){
-		?>
-		<div style="margin-left: 100px">
-		<img height="100" src="<?php echo $model->avatar; ?>" />
-		</div>
-		<?php }echo $form->error($model,'avatar'); ?>
-	</div>
-	
 	<button type="submit" class="btn btn-primary ml100">提交</button>
 	
 <?php $this->endWidget(); ?>
