@@ -33,14 +33,14 @@ class Category extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name, pid, create_uid, create_time', 'required'),
-			array('pid, level, update_uid', 'numerical', 'integerOnly'=>true),
+			array('pid, level', 'numerical', 'integerOnly'=>true),
 			array('name', 'length', 'max'=>50),
 			array('orderid', 'length', 'max'=>10),
 			array('create_uid', 'length', 'max'=>6),
-			array('orderid, path, level, update_uid, update_time', 'safe'),
+			array('orderid, path, level', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, pid, orderid, level, create_uid, create_time, update_uid, update_time', 'safe', 'on'=>'search'),
+			array('id, name, pid, orderid, level, create_uid, create_time', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -69,8 +69,7 @@ class Category extends CActiveRecord
 			'path' => '路径',
 			'create_uid' => '创建者',
 			'create_time' => '创建时间',
-			'update_uid' => '更新者',
-			'update_time' => '更新时间',
+			
 		);
 	}
 
@@ -99,9 +98,7 @@ class Category extends CActiveRecord
 		$criteria->compare('level',$this->level);
 		$criteria->compare('create_uid',$this->create_uid,true);
 		$criteria->compare('create_time',$this->create_time,true);
-		$criteria->compare('update_uid',$this->update_uid);
-		$criteria->compare('update_time',$this->update_time,true);
-
+		
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
