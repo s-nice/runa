@@ -35,17 +35,17 @@ class Ad extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('pid, name, create_uid, create_time, update_uid, update_time', 'required'),
+			array('pid, name, create_uid, create_time', 'required'),
 			array('pid, is_show', 'numerical', 'integerOnly'=>true),
 			array('name', 'length', 'max'=>50),
 			array('img, link', 'length', 'max'=>150),
 			array('orderid', 'length', 'max'=>6),
-			array('create_uid, update_uid', 'length', 'max'=>5),
+			array('create_uid', 'length', 'max'=>5),
 			array('brief, link, title', 'safe'),
 			
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, pid, name, brief, img, link, orderid, is_show, create_uid, create_time, update_uid, update_time', 'safe', 'on'=>'search'),
+			array('id, pid, name, brief, img, link, orderid, is_show, create_uid, create_time', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -77,8 +77,7 @@ class Ad extends CActiveRecord
 			'is_show' => '是否显示',
 			'create_uid' => '创建者',
 			'create_time' => '创建时间',
-			'update_uid' => '更新者',
-			'update_time' => '更新时间',
+			
 		);
 	}
 
@@ -110,9 +109,7 @@ class Ad extends CActiveRecord
 		$criteria->compare('is_show',$this->is_show);
 		$criteria->compare('create_uid',$this->create_uid,true);
 		$criteria->compare('create_time',$this->create_time,true);
-		$criteria->compare('update_uid',$this->update_uid,true);
-		$criteria->compare('update_time',$this->update_time,true);
-
+		
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));

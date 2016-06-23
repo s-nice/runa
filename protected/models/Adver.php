@@ -30,14 +30,14 @@ class Adver extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, create_uid, create_time, update_uid, update_time', 'required'),
+			array('name, create_uid, create_time', 'required'),
 			array('size','safe'),
 			array('name', 'length', 'max'=>50),
 			array('remark', 'length', 'max'=>200),
-			array('create_uid, update_uid', 'length', 'max'=>5),
+			array('create_uid', 'length', 'max'=>5),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, remark, create_uid, create_time, update_uid, update_time', 'safe', 'on'=>'search'),
+			array('id, name, remark, create_uid, create_time', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -63,8 +63,7 @@ class Adver extends CActiveRecord
 			'remark' => '备注',
 			'create_uid' => '创建者',
 			'create_time' => '创建时间',
-			'update_uid' => '更新者',
-			'update_time' => '更新时间',
+			
 			'size'=>'建议尺寸',
 		);
 	}
@@ -92,8 +91,7 @@ class Adver extends CActiveRecord
 		$criteria->compare('remark',$this->remark,true);
 		$criteria->compare('create_uid',$this->create_uid,true);
 		$criteria->compare('create_time',$this->create_time,true);
-		$criteria->compare('update_uid',$this->update_uid,true);
-		$criteria->compare('update_time',$this->update_time,true);
+		
 		$criteria->order='id desc';
 
 		return new CActiveDataProvider($this, array(
