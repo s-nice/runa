@@ -2,7 +2,7 @@
 
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'未来制造',
+	'name'=>'',
 
 	//语言
 	'language' => 'zh_cn',
@@ -72,12 +72,7 @@ return array(
 			'urlFormat' => 'path',
 			'showScriptName' => false,
 			'rules' => [
-				'support-<id:\d+>' => 'support/view',
-				'edu-<id:\d+>' => 'edu/view',
 				'work-<id:\d+>' => 'works/view',
-				'wv-<id:\d+>' => 'works/video',
-				'template-<id:\d+>' => 'template/view',
-				'video-<id:\d+>' => 'video/view',
 				'news-<id:\d+>' => 'news/view',
 				'news/page-<page:\d+>' => 'news/index',
 				'news' => 'news/index',
