@@ -125,6 +125,9 @@ class Category extends CActiveRecord
 		if($pid==0){
 			$dropList = array();
 			$dropList[0]='作为一级分类';
+		}else{
+			$dropList = array();
+			$dropList[0]='请选择';
 		}
 		if($data){
 			foreach ($data as $key => $row) {

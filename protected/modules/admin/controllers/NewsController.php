@@ -55,13 +55,16 @@ class NewsController extends AdminBase
 		$catelist = Category::getDropList(1);
 		$model->orderid=1;
 		$model->news_date=date('Y-m-d');
-		$model->pid=15;
-
+		
 		if(isset($_POST['News']))
 		{
 			$model->attributes=$_POST['News'];
 			$model->create_uid=Yii::app()->user->id;
 			$model->create_time=time();
+			
+			if($model->pid==0){
+				$model->pid='';
+			}
 			
 			if($model->save()){
 				Yii::app()->user->setFlash('success','信息提交成功！');
@@ -89,7 +92,9 @@ class NewsController extends AdminBase
 		{
 			$model->attributes=$_POST['News'];
 			$model->update_time=date('Y-m-d');
-			
+			if($model->pid==0){
+				$model->pid='';
+			}
 			if($model->save()){
 				Yii::app()->user->setFlash('success','信息提交成功！');
 			}else{
@@ -139,6 +144,10 @@ class NewsController extends AdminBase
 		if(isset($_GET['News']))
 			$model->attributes=$_GET['News'];
 
+		if($model->pid==0){
+			$model->pid='';
+		}
+		
 		$this->render('admin',array(
 			'model'=>$model,
 			'catelist'=>$catelist,
