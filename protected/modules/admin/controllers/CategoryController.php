@@ -83,8 +83,7 @@ class CategoryController extends AdminBase
 		if(isset($_POST['Category']))
 		{
 			$model->attributes=$_POST['Category'];
-			$model->update_uid=Yii::app()->user->id;
-			$model->update_time=date('Y-m-d H:i:s');
+			
 			if($model->save()){
 				//$this->redirect(array('view','id'=>$model->id));
 				Yii::app()->user->setFlash('success','信息提交成功！');
