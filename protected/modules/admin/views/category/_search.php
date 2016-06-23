@@ -26,11 +26,6 @@
 		<?php echo $form->dropDownList($model,'pid',$catlist,array('class'=>'input-sm')); ?>
 	</div>
 
-	<div class="rowSearch">
-		<?php echo $form->label($model,'orderid'); ?>：
-		<?php echo $form->textField($model,'orderid',array('size'=>10,'maxlength'=>10)); ?>
-	</div>
-
 <div style="clear: both;text-align: center">
 	<button type="submit" class="btn btn-primary">搜索</button>
 </div>

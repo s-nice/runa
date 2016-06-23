@@ -3,7 +3,7 @@
 /* @var $model Category */
 
 $this->breadcrumbs=array(
-	'Categories'=>array('index'),
+	'分类'=>array('index'),
 	$model->name,
 );
 ?>

@@ -47,8 +47,9 @@ $('.search-form form').submit(function(){
 			'headerHtmlOptions' => array('width'=>'3%'),
 		),
 		'name',
-		'remark',
+		
 		'size',
+		'remark',
 		array(
 			'name'=>'create_uid',
 			'type'=>'raw',

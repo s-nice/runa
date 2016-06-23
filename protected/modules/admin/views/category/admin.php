@@ -3,8 +3,8 @@
 /* @var $model Category */
 
 $this->breadcrumbs=array(
-	'Categories'=>array('index'),
-	'Manage',
+	'分类'=>array('index'),
+	'管理',
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -52,8 +52,8 @@ $('.search-form form').submit(function(){
 			'value'=>'Category::getName($data->pid)',
 		),
 		'orderid',
-		'level',
-		'path',
+		//'level',
+		//'path',
 		
 		/*
 		'create_uid',
