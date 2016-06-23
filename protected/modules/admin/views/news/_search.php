@@ -15,12 +15,12 @@
 		<?php echo $form->label($model,'id'); ?>：
 		<?php echo $form->textField($model,'id',array('size'=>10,'maxlength'=>10)); ?>
 	</div>
-	<!--
+	
 	<div class="rowSearch">
 		<?php echo $form->label($model,'pid'); ?>：
 		<?php echo $form->dropDownList($model,'pid',$catelist,array('class'=>'input-sm')); ?>
 	</div>
-	-->
+	
 	<div class="rowSearch">
 		<?php echo $form->label($model,'title'); ?>：
 		<?php echo $form->textField($model,'title',array('size'=>20,'maxlength'=>150)); ?>

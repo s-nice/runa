@@ -52,7 +52,7 @@ $('.search-form form').submit(function(){
 		array(
 			'name'=>'pid',
 			'type'=>'raw',
-			'value'=>'Newscat::getName($data->pid)',
+			'value'=>'Category::getName($data->pid)',
 		),
 		
 		//'title',
