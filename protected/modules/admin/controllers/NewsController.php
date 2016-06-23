@@ -52,7 +52,7 @@ class NewsController extends AdminBase
 	public function actionCreate()
 	{
 		$model=new News;
-		$catelist = Newscat::getDropList();
+		$catelist = Category::getDropList(1);
 		$model->orderid=1;
 		$model->news_date=date('Y-m-d');
 		$model->pid=15;
@@ -83,7 +83,7 @@ class NewsController extends AdminBase
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
-		$catelist = Newscat::getDropList();
+		$catelist = Category::getDropList(1);
 
 		if(isset($_POST['News']))
 		{
@@ -134,7 +134,7 @@ class NewsController extends AdminBase
 	public function actionAdmin()
 	{
 		$model=new News('search');
-		$catelist = Newscat::getDropList();
+		$catelist = Category::getDropList(1);
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['News']))
 			$model->attributes=$_GET['News'];
