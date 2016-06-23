@@ -24,7 +24,6 @@ $this->breadcrumbs=array(
 		array('name'=>'create_uid', 'value'=>User::getName($model->create_uid) ),
 		'create_time',
 		//'update_uid',
-		array('name'=>'update_uid', 'value'=>User::getName($model->update_uid) ),
-		'update_time',
+		
 	),
 )); ?>
