@@ -35,9 +35,7 @@ class AdverController extends AdminBase
 		{
 			$model->attributes=$_POST['Adver'];
 			$model->create_uid=Yii::app()->user->id;
-			$model->update_uid=Yii::app()->user->id;
 			$model->create_time=date('Y-m-d H:i:s');
-			$model->update_time=date('Y-m-d H:i:s');
 			
 			if($model->save()){
 				//$this->redirect(array('view','id'=>$model->id));
@@ -66,8 +64,7 @@ class AdverController extends AdminBase
 		if(isset($_POST['Adver']))
 		{
 			$model->attributes=$_POST['Adver'];
-			$model->update_uid=Yii::app()->user->id;
-			$model->update_time=date('Y-m-d H:i:s');
+			
 			if($model->save()){
 				//$this->redirect(array('view','id'=>$model->id));
 				Yii::app()->user->setFlash('success','信息提交成功！');

@@ -37,9 +37,7 @@ class AdController extends AdminBase
 		{
 			$model->attributes=$_POST['Ad'];
 			$model->create_uid=Yii::app()->user->id;
-			$model->update_uid=Yii::app()->user->id;
 			$model->create_time=date('Y-m-d H:i:s');
-			$model->update_time=date('Y-m-d H:i:s');
 			
 			if($model->pid==0){
 				$model->pid='';
@@ -85,8 +83,6 @@ class AdController extends AdminBase
 			$oldimg=$model->img;
 			
 			$model->attributes=$_POST['Ad'];
-			$model->update_uid=Yii::app()->user->id;
-			$model->update_time=date('Y-m-d H:i:s');
 			
 			if($model->pid==0){
 				$model->pid='';
